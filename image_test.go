@@ -232,8 +232,8 @@ func TestExtractAreaInvalidParams(t *testing.T) {
 		{"negative width", 0, 0, -10, 50},
 		{"negative left", -1, 0, 50, 50},
 		{"negative top", 0, -1, 50, 50},
-		{"exceeds width", 250, 0, 50, 50},  // 250 + 50 > 272
-		{"exceeds height", 0, 80, 50, 50},  // 80 + 50 > 92
+		{"exceeds width", 250, 0, 50, 50}, // 250 + 50 > 272
+		{"exceeds height", 0, 80, 50, 50}, // 80 + 50 > 92
 	}
 
 	for _, tc := range testCases {

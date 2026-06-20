@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/ebitengine/purego"
 	"github.com/adambenhassen/libvips-purego/internal/ffi"
+	"github.com/ebitengine/purego"
 )
 
 // Config holds initialization options for libvips.

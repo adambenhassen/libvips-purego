@@ -14,7 +14,7 @@ func getLibraryPath() (string, []string) {
 	paths := []string{
 		"/usr/lib/x86_64-linux-gnu/libvips.so.42",  // Debian amd64
 		"/usr/lib/aarch64-linux-gnu/libvips.so.42", // Debian arm64
-		"libvips.so.42",                            // LD_LIBRARY_PATH fallback
+		"libvips.so.42", // LD_LIBRARY_PATH fallback
 	}
 	for _, p := range paths {
 		// For absolute paths, check existence; for bare names, always try via dlopen
