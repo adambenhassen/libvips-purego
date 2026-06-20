@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="libvips-purego">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1b2a"/>
+      <stop offset="1" stop-color="#1b3a5b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
+
+  <!-- stylized stacked "image layers" mark -->
+  <g transform="translate(70 70)" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linejoin="round">
+    <rect x="0" y="36" width="80" height="56" rx="8" opacity="0.45"/>
+    <rect x="14" y="18" width="80" height="56" rx="8" opacity="0.7"/>
+    <rect x="28" y="0"  width="80" height="56" rx="8"/>
+  </g>
+
+  <text x="220" y="100" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">
+    libvips<tspan fill="url(#accent)">-purego</tspan>
+  </text>
+  <text x="222" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#9fb3c8">
+    cgo-free libvips bindings for Go
+  </text>
+</svg>
